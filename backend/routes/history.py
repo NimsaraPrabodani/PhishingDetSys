@@ -5,5 +5,16 @@ history_bp = Blueprint("history_bp", __name__)
 
 @history_bp.route("/history", methods=["GET"])
 def history():
-    data = list(collection.find({},{"_id":0}))
-    return jsonify(data)
+    data = collection.find().sort("date", -1)
+
+    result = []
+
+    for i in data:
+        result.append({
+            "url": i["url"],
+            "score" :i["score"],
+            "status":i["status"],
+            "date":str(i["date"])
+        })
+
+        return jsonify(result)
