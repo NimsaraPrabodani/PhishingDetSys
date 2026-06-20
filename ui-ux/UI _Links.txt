@@ -3,3 +3,6 @@ https://www.figma.com/design/MbTIymm8oIgCyzW7BJFNBJ/Phishing-Detection-System-De
 
 Landing Page UI
 https://www.figma.com/design/MbTIymm8oIgCyzW7BJFNBJ/Phishing-Detection-System-Design?node-id=75-133&t=h2fhKYYAzF3QDNJ7-1
+
+URL Scanner UI
+https://www.figma.com/design/MbTIymm8oIgCyzW7BJFNBJ/Phishing-Detection-System-Design?node-id=86-78&t=h2fhKYYAzF3QDNJ7-1
